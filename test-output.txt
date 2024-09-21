@@ -1,0 +1,115 @@
+Static test: first few prime numbers:
+      2
+    3
+      5
+  7
+      11
+    13
+      17
+19
+      23
+    29
+      31
+  37
+      41
+    43
+      47
+  53
+      59
+    67
+      71
+    73
+      79
+    83
+      89
+      97
+
+Without 37:
+      2
+    3
+      5
+  7
+      11
+    13
+      17
+19
+      23
+    29
+      31
+  41
+      43
+      47
+    53
+      59
+  67
+      71
+    73
+      79
+    83
+      89
+      97
+
+Without 73:
+      2
+    3
+      5
+  7
+      11
+    13
+      17
+19
+      23
+    29
+      31
+  41
+      43
+      47
+    53
+      59
+  67
+      71
+    79
+      83
+    89
+      97
+
+Without 97:
+      2
+    3
+      5
+  7
+      11
+    13
+      17
+19
+      23
+    29
+      31
+  41
+      43
+      47
+    53
+      59
+  67
+      71
+    79
+      83
+      89
+CASE:      100 integers,       20 finds,       10 removals.  Generating...
+  TwoFourTree add:       0ms  find:       0ms  del:       0ms  (        9 missing) find:      0ms  (Should be         9 missing)  
+  TreeSet     add:       0ms  find:       0ms  del:       0ms  (        9 missing) find:      0ms  (Should be         9 missing)  
+CASE:    1,000 integers,      200 finds,      100 removals.  Generating...
+  TwoFourTree add:       1ms  find:       0ms  del:       1ms  (       91 missing) find:      0ms  (Should be        91 missing)  
+  TreeSet     add:       0ms  find:       0ms  del:       1ms  (       91 missing) find:      0ms  (Should be        91 missing)  
+CASE:   10,000 integers,    2,000 finds,    1,000 removals.  Generating...
+  TwoFourTree add:       3ms  find:       0ms  del:       2ms  (      910 missing) find:      1ms  (Should be       910 missing)  
+  TreeSet     add:       1ms  find:       0ms  del:       1ms  (      910 missing) find:      0ms  (Should be       910 missing)  
+CASE:  100,000 integers,   20,000 finds,   10,000 removals.  Generating...
+  TwoFourTree add:      13ms  find:       3ms  del:       4ms  (    9,063 missing) find:      3ms  (Should be     9,063 missing)  
+  TreeSet     add:       8ms  find:       2ms  del:       1ms  (    9,063 missing) find:      2ms  (Should be     9,063 missing)  
+CASE: 1,000,000 integers,  200,000 finds,  100,000 removals.  Generating...
+  TwoFourTree add:     153ms  find:      25ms  del:      28ms  (   90,610 missing) find:     24ms  (Should be    90,610 missing)  
+  TreeSet     add:     131ms  find:      20ms  del:      15ms  (   90,610 missing) find:     21ms  (Should be    90,610 missing)  
+CASE: 10,000,000 integers, 2,000,000 finds, 1,000,000 removals.  Generating...
+  TwoFourTree add:   2,140ms  find:     279ms  del:     342ms  (  905,936 missing) find:    283ms  (Should be   905,936 missing)  
+  TreeSet     add:   1,998ms  find:     364ms  del:     209ms  (  905,936 missing) find:    373ms  (Should be   905,936 missing)  
